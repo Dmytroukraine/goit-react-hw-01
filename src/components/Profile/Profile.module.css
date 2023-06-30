@@ -42,6 +42,7 @@
     width: 25%;
     margin: 0 auto;
   }
+ 
   
   .stats li {
     width: 33.33%;
@@ -53,7 +54,9 @@
     border: 1px solid black;
     background: rgb(233, 230, 230);
   }
-  
+
+   .list:hover, .list:focus {background-color: rgb(201, 146, 253);}
+
   .label{
     font-size: 14px;
     color: grey;
