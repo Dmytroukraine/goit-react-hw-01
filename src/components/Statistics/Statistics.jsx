@@ -39,6 +39,6 @@ Statistics.propTypes = {
       id: PropTypes.string.isRequired,
       label: PropTypes.string,
       percentage: PropTypes.number
-    }),
+    }).isRequired,
   ).isRequired 
 }
